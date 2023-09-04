@@ -13,7 +13,7 @@ function Studetn() {
 
     }, []) 
 
-    const handleDelete = async (id) => {
+    const handleDelete = async (id) => { 
 
         try {
             await axios.delete('http://localhost:8081/student/'+id)
