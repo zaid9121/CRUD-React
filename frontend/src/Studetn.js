@@ -11,7 +11,7 @@ function Studetn() {
             .then(res => setStudent(res.data))
             .catch(err => console.log(err));
 
-    }, [])
+    }, []) 
 
     const handleDelete = async (id) => {
 
